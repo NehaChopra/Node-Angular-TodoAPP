@@ -1,0 +1,40 @@
+{
+  "name": "node-todo",
+  "version": "1.0.0",
+  "description": "Simple todo application.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NehaChopra/Node-Angular-TodoAPP.git"
+  },
+  "keywords": [
+    "Creating",
+    "a",
+    "Single",
+    "Page",
+    "Todo",
+    "App",
+    "with",
+    "Node",
+    "and",
+    "Angular",
+    "Edit"
+  ],
+  "author": "Neha Chopra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NehaChopra/Node-Angular-TodoAPP/issues"
+  },
+  "homepage": "https://github.com/NehaChopra/Node-Angular-TodoAPP#readme",
+  "dependencies" : {
+    "express"    : "~4.7.2",
+    "mongoose"   : "~3.6.2",
+    "morgan"     : "~1.2.2",
+    "body-parser": "~1.5.2",
+    "method-override": "~2.1.2"
+  }
+}
